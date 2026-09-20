@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /internal/
+Disallow: /backup/
+Disallow: /staging/
+Disallow: /.well-known/security.txt
+
+Sitemap: https://novacorp-solutions.example/sitemap.xml
+# Maintenance note: staging site at staging.novacorp-solutions.example still indexed — fix ASAP
